@@ -30,6 +30,7 @@ header div{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
   background-color: rgb(42, 96, 124);
+  bottom: 70px;
 }
 
 header div ul {
@@ -108,7 +109,11 @@ aside {
   margin: 5px;
   width: 30%;
 }
+.side1{
 
+  position: relative;
+  left: 150px;
+}
 section {
   margin: 300px;
   background-color: #fff;
