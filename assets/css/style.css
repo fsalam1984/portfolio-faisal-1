@@ -25,7 +25,8 @@ header {
 }
 
 header div{
-  float: right;
+  position: relative;
+  left: 1200px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
   background-color: rgb(42, 96, 124);
@@ -44,7 +45,7 @@ header div ul {
     display: inline-block;
     margin-left: 25px;
     /* float: right; */
-    /* border-bottom: 1px solid var(--navlink-color); */
+    border-bottom: 1px solid var(--navlink-color);
 
 }
 #sub{
@@ -109,7 +110,7 @@ aside {
 }
 
 section {
-  /* flex: 7.3; */
+  margin: 300px;
   background-color: #fff;
   padding: 20px;
   display: flex;
@@ -197,7 +198,7 @@ footer {
 
 .contact_me {
   display: inline-block;
-  margin:300px
+  /* margin:300px */
 }
 .About_me { 
   margin: 270px;
@@ -208,7 +209,7 @@ footer {
 
 .resources{
   padding: 50px;
-  
+
 }
  /* }  */ */
 /* When you mouse over the container, fade in the overlay title */
