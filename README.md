@@ -27,6 +27,13 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-Deployed application link: 
+Deployed application link: https://fsalam1984.github.io/portfolio-faisal-1/
 
 
+![Screenshot 2024-03-15 at 5 26 44 PM](https://github.com/fsalam1984/portfolio-faisal-1/assets/161408871/e2e01d41-641d-4297-a219-6f5e63b2a81b)
+
+
+
+Repo Link:
+
+git@github.com:fsalam1984/portfolio-faisal-1.git
