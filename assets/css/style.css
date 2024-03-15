@@ -1,0 +1,249 @@
+  :root {
+    /* declare a variable with `--` syntax */
+    --dark: #13293d;
+    --light: #fff;
+    --navlink-color: #b9c6ae;
+  }* 
+
+  {
+      box-sizing: border-box;
+    }
+  
+  body {
+      font-family: Arial;
+      margin: 0;
+    }
+  
+header {
+    padding: 20px;
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(42, 96, 124);
+    color: rgb(217, 220, 214);
+    
+}
+
+header div{
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  background-color: rgb(42, 96, 124);
+}
+
+header div ul {
+    list-style-type: none;
+}
+/* .header .sublinks ul{
+  list-style-type: none;
+
+} */
+
+
+.slinks{
+    display: inline-block;
+    margin-left: 25px;
+    /* float: right; */
+    /* border-bottom: 1px solid var(--navlink-color); */
+
+}
+#sub{
+  width: 100%; 
+  height: 150px;
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+.imgsub {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+
+
+.subtitle {
+  color: white;
+  position: absolute;
+  bottom: 0%;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.imgsubtitle{
+
+  display: inline-flex
+}
+.projects{
+
+  position: relative;
+  bottom: 200px;
+  left: 40%;
+}
+nav {
+  display: flex;
+  /* background-color: #d8a47f; */
+}
+  
+nav a {
+  color: #13293d;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+  
+main {
+  /* display: flex; */
+  flex-wrap: wrap;
+}
+  
+aside {
+  /* flex: 2.5; */
+  background-color: white;
+  color: rgb(53, 192, 214);
+  padding: 288px;
+  border-right: 5px solid rgb(53, 192, 214);
+  margin: 5px;
+  width: 30%;
+}
+
+section {
+  /* flex: 7.3; */
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+}
+  
+.sample-img {
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+  height: 200px;
+  /* border: 1px solid black; */
+  border-bottom: 1px solid var(--navlink-color);
+
+}
+
+.img1 {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/Semantics.jpg");
+  background-size: cover;
+  background-position: center;
+  text-emphasis-color: blue;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+.workside{
+  padding: 15.1%;
+}
+
+/* image overlay hover
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  /* width: 100%; */
+  max-width: 330px;
+  /* height: 400px; */
+
+}
+
+/* Make the image to responsive */
+.image {
+  /* display: flex; */
+  /* width: 95%; */
+  /* height: 400px; */
+  /* margin-bottom: 1px;    */
+  /* align-items: flex-start; */
+  /* position: relative; */
+
+}
+.image2{
+  display: flex;
+  justify-content: space-between; 
+  padding: 5px;
+  display: grid;
+}
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  /* background: rgb(0, 0, 0); */
+  background: rgba(0, 0, 0, 0.5);
+  /* color: #f1f1f1; */
+  /* width: 100%; */
+  transition: .5s ease;
+  opacity: 3;
+  color: white;
+  font-size: 20px;
+  padding: 40px;
+  text-align: center;
+  cursor: pointer;
+
+ } 
+ .image123 {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+ }
+
+
+.contact_me {
+  display: inline-block;
+  margin:300px
+}
+.About_me { 
+  margin: 270px;
+}
+.resource{
+  margin: 270px;
+}
+
+.resources{
+  padding: 50px;
+  
+}
+ /* }  */ */
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay  {
+  opacity: 1;
+}
+
+.container:hover .overlay1  {
+  opacity: 1;
+}
+
+.secondheader{
+
+  float: inline-end;
+  text-align: bottom;
+  
+}
+@media screen and (max-width: 768px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  main, nav{
+    flex-direction: column;
+    float: right;
+  }
+  /* Make the sidebar stack below the body */
+  aside {
+    order: 2;
+  }
+  /* Change the header background */
+  header {
+    background: #772014;
+  }
+  /* Change the navbar and footer background */
+  nav,
+  footer {
+    background-color: #bb8588;
+  }
+}
+ 
