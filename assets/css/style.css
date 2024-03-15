@@ -162,7 +162,7 @@ footer {
 }
 
 /* Make the image to responsive */
-.image {
+/* .image { */
   /* display: flex; */
   /* width: 95%; */
   /* height: 400px; */
@@ -170,7 +170,7 @@ footer {
   /* align-items: flex-start; */
   /* position: relative; */
 
-}
+/* } */
 .image2{
   display: flex;
   justify-content: space-between; 
@@ -182,10 +182,10 @@ footer {
   position: absolute;
   bottom: 0;
   /* background: rgb(0, 0, 0); */
-  background: rgba(0, 0, 0, 0.5);
-  /* color: #f1f1f1; */
+  background: greenyellow;
+  color: #f1f1f1;
   /* width: 100%; */
-  transition: .5s ease;
+  transition: 200ms ease ease-in-out;
   opacity: 3;
   color: white;
   font-size: 20px;
@@ -198,9 +198,15 @@ footer {
   display: flex;
   padding: 5px;
   justify-content: space-between;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 1 / 1;
+
  }
 
-
+.image123:hover overlay {
+  opacity: 1;
+}
 .contact_me {
   display: inline-block;
   /* margin:300px */
