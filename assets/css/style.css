@@ -26,7 +26,7 @@ header {
 
 header div{
   position: relative;
-  left: 1200px;
+  left: 800px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
   background-color: rgb(42, 96, 124);
@@ -148,6 +148,8 @@ footer {
 }
 .workside{
   padding: 15.1%;
+  width: 38.8%;
+  margin: 20px;
 }
 
 /* image overlay hover
@@ -159,6 +161,9 @@ footer {
   max-width: 330px;
   /* height: 400px; */
 
+}
+.image{
+  max-width: 800px;
 }
 
 /* Make the image to responsive */
@@ -199,8 +204,8 @@ footer {
   padding: 5px;
   justify-content: space-between;
   object-fit: cover;
-  object-position: center;
-  aspect-ratio: 1 / 1;
+  /* object-position: center;
+  aspect-ratio: 1 / 1; */
 
  }
 
